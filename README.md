@@ -5,7 +5,7 @@ interpolate values of RGB to a linear color space between 0 and 1, then returns 
 ```Y=0.2126*Rlin+0.7152*Glin+0.0722*Blin```
 
 finally, converts Y (CIEXYZ) to CIELAB colorimetry value for perceived brightness by human eye.
-We use the inverse of CIEXYZ TO CIELAB since we are looking for brightness rather than darkness. where t = X/Xn', Y/Yn', or Z/Zn':
+We use the inverse of CIEXYZ TO CIELAB since we are looking for brightness rather than darkness. where t = X/Xn', Y/Yn', or Z/Zn'
 
 https://en.wikipedia.org/wiki/SRGB#From_sRGB_to_CIE_XYZ
 
