@@ -13,7 +13,7 @@ const ColorIsBright = (H) => {
       r = +("0x" + H[1] + H[2])
       g = +("0x" + H[3] + H[4])
       b = +("0x" + H[5] + H[6])
-    }
+    } 
     
     // sigma function, reduce each value to a number between 0 and 1
     r /= 255

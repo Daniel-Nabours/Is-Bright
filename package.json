@@ -2,8 +2,33 @@
   "dependencies": {
     "jest": "^27.4.7"
   },
-    "scripts": {
-      "test": "jest"
-    }
+  "scripts": {
+    "test": "jest"
+  },
+  "name": "colorisbright",
+  "description": "## Installation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel-Nabours/Is-Bright.git"
+  },
+  "keywords": [
+    "color",
+    "colorimetry",
+    "rgb",
+    "CIELAB",
+    "relative",
+    "lumosity",
+    "linear",
+    "color",
+    "space"
+  ],
+  "author": "daniel nabours",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniel-Nabours/Is-Bright/issues"
+  },
+  "homepage": "https://github.com/Daniel-Nabours/Is-Bright#readme"
 }
-
